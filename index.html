@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang=”en’>
+<head>
+    <title>Sacha Piscuskas | Artist</title>
+    <meta charset=”utf-8”>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <header>Sacha Piscuskas</header>
+            <nav>
+                <ul>
+                    <li><a id="menuButton" class="filter-button-group" href="#">ART</a></li>
+                    <li><a id="aboutButton" href="#">ABOUT</a></li>
+                    <li><a id="contactButton" href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <ul id="sub-menu">
+                <li>
+                    <a class="filter-button-group" href="#">DRAWINGS</a>
+                </li>
+                <li>
+                    <a class="filter-button-group" href="#">SKETCHBOOK</a>
+                </li>
+                <li>
+                    <a class="filter-button-group" href="#">FIGURES</a>
+                </li>
+                <li>
+                    <a class="filter-button-group" href="#">SCULPTURE</a>
+                </li>
+                <li>
+                    <a class="filter-button-group" href="#">DIGITAL</a>
+                </li>
+            </ul>
+            <section id="about">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lorem metus, scelerisque nec erat finibus, consectetur convallis eros. Aenean luctus placerat massa eu posuere. Integer maximus vehicula gravida. Nunc eu laoreet nibh. Maecenas et tortor in eros aliquet lobortis et sed mauris. Vestibulum egestas velit id ex pretium ornare. Integer tincidunt id turpis vel vulputate. Integer imperdiet risus nisi, sed dignissim nisl pharetra eu. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+                    Duis massa mauris, rhoncus accumsan lobortis a, placerat ut libero. Quisque varius risus non nisl porttitor, pretium vehicula dui pretium. Nunc lacinia maximus ligula. Ut tincidunt leo leo, id lacinia ligula faucibus sed. Donec nunc quam, elementum at ex a, iaculis semper augue. Morbi porta semper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum at faucibus metus. Vestibulum vehicula urna ex, sit amet finibus lorem aliquam vitae. Cras posuere sed augue a euismod. Quisque sed facilisis justo. Morbi ac lacus ac urna commodo aliquet. Curabitur eget augue eget arcu rhoncus aliquam. Sed vitae sagittis nulla. Sed convallis magna at ipsum lacinia, vel viverra neque imperdiet. Pellentesque tempor, lorem eu commodo semper, ipsum nulla aliquam orci, ut rhoncus elit arcu mattis erat.
+                </p>
+            </section>
+            <section id="contact">
+                <form method="post" action="php/main.php">
+                    <input name="name" type="text" required="required" placeholder="name">
+                    <br><br>
+                    <input name="email" type="email" required="required" placeholder="email">
+                    <br><br>
+                    <textarea name="message" row="4" col="50"></textarea>
+                    <br><br>
+                    <input name="submit" type="submit" value="send">
+                </form>
+            </section>
+            <div class="grid">
+                <a href="images/image00.jpg" data-lightbox="image">
+                    <img class="sculpture grid-item" src="images/image00.jpg"/>
+                </a>
+                <a href="images/image01.jpg" data-lightbox="image">
+                    <img class="drawings grid-item" src="images/image01.jpg"/>
+                </a>
+                <a href="images/image02.jpg" data-lightbox="image">
+                    <img class="sculpture grid-item" src="images/image02.jpg"/>
+                </a>
+                <a href="images/image03.jpg" data-lightbox="image">
+                    <img class="sculpture grid-item" src="images/image03.jpg"/>
+                </a>
+                <a href="images/image04.jpg" data-lightbox="image">
+                    <img class="sculpture grid-item" src="images/image04.jpg"/>
+                </a>
+                <a href="images/image05.jpg" data-lightbox="image">
+                    <img class="drawings grid-item" src="images/image05.jpg"/>
+                </a>
+                <a href="images/image06.jpg" data-lightbox="image">
+                    <img class="drawings grid-item" src="images/image06.jpg"/>
+                </a>
+                <a href="images/image07.jpg" data-lightbox="image">
+                    <img class="sculpture grid-item" src="images/image07.jpg"/>
+                </a>
+            </div><!--end of grid-->
+        </div><!--end of content-->
+    </div><!--end of container-->
+    <script src="javascript/jquery-1.11.3.min.js"></script>
+    <script src="javascript/imagesLoaded.min.js"></script>
+    <script src="javascript/isotope.min.js"></script>
+    <script src="javascript/main.js"></script>
+    <!--<script src="javascript/media-500px.js" media="(max-width: 500px)"></script>-->
+    <script src="javascript/lightbox.js"></script>
+</body>
+</html>

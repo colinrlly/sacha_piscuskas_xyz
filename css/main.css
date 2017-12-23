@@ -1,0 +1,181 @@
+/*---body---*/
+
+* {
+    font-family: helvetica; san-serif;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+/*---navigation---*/
+
+nav{
+    margin-bottom: 25px;
+}
+
+nav ul {
+	height: 20px;
+    width: 50%;
+    padding: 0;
+    margin: auto auto;
+}
+
+nav ul li {
+    width: 33%;
+	list-style: none;
+    float: left;
+    padding: 0;
+}
+
+nav ul li:nth-child(3) {
+	width: 34%;
+}
+    
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+}
+
+    /*---sub-menu---*/
+
+#sub-menu {
+    width: 50%;
+    height: 20px;
+    display: none;
+    margin: auto;
+    margin-bottom: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+#sub-menu li {
+	list-style: none;
+    float: left;
+    width: 20%;
+}
+
+#sub-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    display: block;
+}
+
+/*---content---*/
+
+#content{
+    width: 100%;
+    height: auto;
+    margin: auto auto;
+    padding: 0;
+}
+
+.grid a {
+    text-decoration: none;
+}
+
+header {
+    font-size: 2.5em;
+    margin: 25px 0 25px;
+    font-family: papyrus;
+}
+
+    /*---isotope---*/
+
+.grid{
+    margin: 0 auto;
+}
+
+.grid-item {
+    position: relative;
+    float: left;
+    margin: 5px;
+    display: block;
+    width: 200px;
+}
+
+.grid-item-width2 {
+    width: 410px;
+}
+
+/*--about--*/
+
+#about {
+    width: 50%;
+    height: auto;
+    display: none;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: Georgia;
+    margin: auto;
+    margin-bottom: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/*--contact--*/
+
+#contact {
+    width: 50%;
+    height: 150px;
+    display: none;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/*--media queries--*/
+@media (max-width: 900px) 
+{
+    #about {
+        width: 100%;
+    }
+    
+    #about p {
+        width: 95%;
+        margin: auto;
+    }
+    
+    #contact {
+        width: 100%;
+    }
+    
+    nav ul {
+        width: 100%;
+    }
+    
+    #sub-menu {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) 
+{
+    .grid-item{
+        width: 97%;
+    }
+    
+    #sub-menu li a {
+        font-size: .7em;
+    }
+}
+
+
+
+
+
+
+
